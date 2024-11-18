@@ -1,0 +1,40 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+#map {
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
